@@ -1,4 +1,4 @@
-<!doctype html>
+<doctype html>
 <html lang="en">
 
 <head>
@@ -14,7 +14,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/default.css" id="theme">
 
     <!-- For syntax highlighting -->
@@ -47,10 +47,6 @@
         <h2>Static and Dynamic Typing</h2>
         <h2>vs</h2>
         <h2>STRONG TYPING AND WEAK TYPING</h2>
-        <p>
-            reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-            support for CSS 3D transforms to see it in its full glory.
-        </p>
 
         <aside class="notes">
             Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
@@ -135,12 +131,12 @@ echo $foo;
     </section>
     <section>
         <h2> Conclusion ....</h2>
-        <ol>
+        <ul>
             <li class="fragment"><em>Ruby is dynamic typed and strong typed</em></li>
             <li class="fragment"><em>Java is static typed and strong typed</em></li>
             <li class="fragment"><em>PHP is dynamic typed and weak typed</em></li>
             <li class="fragment"><em>C is static typed and weak typed</em></li>
-        </ol>
+        </ul>
 
         <aside class="notes">
             This slide has fragments which are also stepped through in the notes window.
@@ -150,53 +146,77 @@ echo $foo;
 
 <!-- Example of nested vertical slides -->
 <section>
+    <h2>Application Server vs Web Server</h2>
+    <p>
+        Both terms are very generic, one containing the other one and vice versa in some cases.
+    </p>
+    <br>
+    <p>
+        <strong>Web server:</strong> <br>
+        <em>serves content to the web using http protocol.</em>
+    </p>
+    <p>
+        <strong>Application server:</strong><br>
+        <em>hosts and exposes business logic and processes.</em>
+    </p>
+    <aside class="notes">
+        I think that the main point is that the web server exposes everything through the http protocol, while the application server is not restricted to it.
+
+        That said, in many scenarios you will find that the web server is being used to create the front-end of the application server, that is, it exposes a set of web pages that allow the user to interact with the business rules found into the application server.
+    </aside>
+
+</section>
+
+<section>
     <section>
-        <h2>Vertical Slides</h2>
+        <h2>Open source programs and contributions</h2>
+    </section>
+    <section>
         <p>
-            Slides can be nested inside of other slides,
-            try pressing <a href="#" class="navigate-down">down</a>.
+            The source code is included with the compiled version and modification or customization is actually encouraged.
+            The software developers who support the open source concept believe that by allowing anyone who's interested to modify the source code, the application will be more useful and error-free over the long term.
         </p>
-        <a href="#" class="image navigate-down">
-            <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-        </a>
+        <aside class="notes">
+            The software developers who support the open source concept believe that by allowing anyone who's interested to modify the source code, the application will be more useful and error-free over the long term.
+        </aside>
     </section>
     <section>
-        <h2>Basement Level 1</h2>
-        <p>Press down or up to navigate.</p>
+        <p>
+            To be considered as open source software by the software development industry, certain criteria must be met:
+        </p>
+        <ul>
+            <li>The program must be freely distributed.</li>
+            <li>Source code must be included.</li>
+            <li>Anyone must be allowed to modify the source code.</li>
+            <li>Modified versions can be redistributed.</li>
+            <li>The license must not require the exclusion of other software or interfere with the operation of other software</li>
+        </ul>
     </section>
-    <section>
-        <h2>Basement Level 2</h2>
-        <p>Cornify</p>
-        <a class="test" href="http://cornify.com">
-            <img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-        </a>
-    </section>
-    <section>
-        <h2>Basement Level 3</h2>
-        <p>That's it, time to go back up.</p>
-        <a href="#/2" class="image">
-            <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-        </a>
-    </section>
+
 </section>
 
 <section>
-    <h2>Slides</h2>
-    <p>
-        Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
-    </p>
+    <h2>Introduction For Languages</h2>
+<img height="250" width="300" src="images/ruby.jpeg"/>
+        <img height="250" width="300" src="images/java.jpeg"/>
+        <img height="250" width="300" src="images/php.jpeg"/>
 </section>
 
 <section>
-    <h2>Point of View</h2>
-    <p>
-        Press <strong>ESC</strong> to enter the slide overview.
-    </p>
-    <p>
-        Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-    </p>
-</section>
+    <section>
 
+        <h2>RUBY</h2>
+        <p>Ruby is an interpreted scripting language that is used for easy, quick and scalable object-oriented programming.</p>
+        <br>
+        <p>
+            Philosophy of Ruby:-
+        </p>
+        <blockquote>Matsumoto has said that Ruby is designed for programmer productivity and fun, following the principles of good user interface design. He stresses that systems design needs to emphasize human, rather than computer, needs.”</blockquote>
+    </section>
+    <section>
+
+    </section>
+</section>
 <section>
     <h2>Works in Mobile Safari</h2>
     <p>
@@ -415,11 +435,12 @@ echo $foo;
 
 <section>
     <h1>THE END</h1>
-    <h3>BY Hakim El Hattab / hakim.se</h3>
+    <h3>BY Vivek Parihar</h3>
+    <h3>WeboniseLab</h3>
+    <h3></h3>
 </section>
 
 </div>
-
 </div>
 
 <script src="lib/js/head.min.js"></script>

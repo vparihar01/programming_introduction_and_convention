@@ -1367,4 +1367,14 @@ body {
 	visibility: hidden;
 }
 
+.pesentation-details {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font: .4em sans-serif;
+    color: #444;
+    padding: 20px 0 20px 60px;
+
+}
+
 
