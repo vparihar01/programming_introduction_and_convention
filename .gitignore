@@ -4,3 +4,6 @@ log/*.log
 tmp/**
 node_modules/
 .sass-cache
+### .idea  files come from Ruby Mine, a Rails IDE. ###
+.idea
+.idea/workspace.xml
